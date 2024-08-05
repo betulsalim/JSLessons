@@ -6,3 +6,9 @@ function selamVer()
     console.log("merhaba " + isim);
 }
 selamVer();
+
+function favoriRenginiSoyle (renk)
+{
+    console.log("Favori rengin: " + renk);
+}
+favoriRenginiSoyle("mavi");
