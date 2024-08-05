@@ -12,3 +12,8 @@ function favoriRenginiSoyle (renk)
     console.log("Favori rengin: " + renk);
 }
 favoriRenginiSoyle("mavi");
+
+//global olarak tanımladığım şeyi local olarak da tanımlayabilirim.
+
+//shadow
+//local olarak tanımladığım değişkeni global olarak da tanımlarsam eğer fonksiyonu çağırdığımda fonk. local olanı kullanacaktır.
