@@ -83,3 +83,7 @@ console.log(isimler);
 isimler.sort();
 console.log(isimler);
 
+const sonuc = ogrenciler.filter((ogrenci) => ogrenci.id % 2 === 0)
+.map(ogrenci => ogrenci.adi + " " + ogrenci.soyad)
+.sort(); 
+console.log(sonuc);
